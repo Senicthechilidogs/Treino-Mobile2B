@@ -98,4 +98,22 @@
         color: var(--preto);
     }
 
+    .container__imagem-trasparente {
+        display: none;
+    
+    }
+    
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+    
+    .opções__botão:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+    
+    .opções__botão {
+        display: none;
+    }
+
 }
